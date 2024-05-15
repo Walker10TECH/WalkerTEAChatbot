@@ -1,5 +1,6 @@
 
-import google.generativeai as genai
+
+import google.generativeai as genai # type: ignore
 
 GOOGLE_API_KEY="AIzaSyDtzOBprQ3AvPrtieLJJjVf69X_PkotWT4"
 genai.configure(api_key=GOOGLE_API_KEY)
